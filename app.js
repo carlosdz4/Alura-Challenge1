@@ -22,8 +22,9 @@ if(ValidarTexto(mensaje) && VerificarTexto(mensaje)){
 }
 
 function ValidarTexto(texto){
-
-    if (/[áéíóúÁÉÍÓÚ]/.test(texto)) {
+    
+    const formato = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?áéíóúÁÉÍÓÚ]/
+    if (formato.test(texto)) {
     
         document.getElementById("textValidacion").style.color = "red";
         return false;
