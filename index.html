@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/49fabc24c1.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    
+    <title>Encritador</title>
+</head>
+<body>
+
+    
+
+    
+
+    <main class="container">
+    
+
+       
+
+       
+            <img src="Logo/Logo.png" alt="" class="Logo">
+    <div class="parrafoEncriptado">
+        
+        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" class="input-padron" required placeholder="Ingrese el texto aqui"></textarea>
+    </div>
+
+    <div class="DesEncriptar">
+        
+        
+        <div class="texto-encriptado">
+            <textarea name="TxtEncriptado" id="TxtEncriptado" readonly cols="30"  rows="10"></textarea>
+        </div>
+
+        <div id="contenido-img">
+            <img src="Img/perro.png" alt="" srcset="">
+            
+        </div>
+        <div id="text-container">
+            <h1>Ningún mensaje  encontrado</h1>
+            <h2>Ingresa el texto que deseas encriptar o desencriptar.</h2>
+        </div>
+
+        <input type="button" value="Copiar" id="btncopia" class="btnEncriptar" onclick="Copiar()">
+
+    </div>
+    
+    <div class="Botones">
+        <p id="textValidacion" ><i class="fa-solid fa-circle-info"></i>Solo Letras minisculas y sin acentos</p>
+        <input type="button" value="Encriptar" class="btnEncriptar" onclick="EncriptarTxt()">
+        <input type="button" id="DesEncriptar" value="Desencriptar"   class="btnEncriptar" onclick="DesEncriptarTexto()">
+    </div>
+
+    
+    
+
+
+</main>
+
+<footer>
+   
+      <a href="https://github.com/carlosdz4"><i class="fa-brands fa-github"></i></i></a>  
+      <a href="https://www.linkedin.com/in/carlos-shephard/"><i class="fa-brands fa-linkedin"></i></a>  
+
+</footer>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,281 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.Logo{
+    width: 120px;
+    height: 48px;
+    margin: 20px 20px auto;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #E9ECF8;
+}
+
+.input-padron{
+    
+
+
+font-family: thin;
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #0A3871;
+background: #E9ECF8;
+border: none;
+outline: none;
+text-transform: lowercase;
+resize: none;
+
+
+}
+
+.input-padron::placeholder{
+    color: #0A3871;
+}
+
+.parrafoEncriptado{
+
+position: absolute;
+width: 30%;
+left: 12%;
+top: 15%;
+
+}
+
+.Botones{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    
+
+}
+
+
+
+.btnEncriptar:disabled{
+    background: rgb(175, 172, 172);
+}
+
+.btnEncriptar{
+   
+    margin: 10px 5px 10px 10px;
+    padding: 10px;
+    margin:  10px;
+    font-size: 18px;
+    text-align: center;
+
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 300px;
+    height: 67px;
+    
+
+}
+
+#btncopia{
+
+   display: none;
+    position: absolute;
+    bottom: 10%;
+   
+   
+}
+
+
+
+.btnEncriptar:hover{
+    color: white;
+    background: #0A3871;
+    transform: scale(1.1);
+    
+
+
+}
+
+.DesEncriptar{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 65%;
+    border-radius: 24px;
+    top: 5%;
+    background-color: #f9dfd4;
+    justify-content: center;
+    
+}
+
+
+
+#contenido-img{
+
+    position: absolute;
+    bottom: 50%;
+    
+    
+    
+}
+
+#contenido-img img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+#text-container{
+    position: absolute;
+    bottom: 25%;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    
+    letter-spacing: 0em;
+    text-align: center;
+   
+}
+#text-container h2{
+    color: #495057;
+}
+
+
+.texto-encriptado{
+
+   position: absolute;
+   top: 5%;
+   
+
+}
+
+#TxtEncriptado{
+
+    padding-left: 5%;
+    font-family: thin;
+    font-size: 30px;
+    width: 80%;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #495057;
+    background: #f9dfd4;
+    border: none;
+    outline: none;
+    resize: none;
+
+}
+footer{
+    
+    text-align: center;
+    height: 100px;
+    background: #E9ECF8;
+}
+
+footer i{
+    color: black;
+    
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1100px) and (min-height : 500px) {
+
+    
+    
+    #btncopia{
+
+        width: 80%;
+        height: 20%;
+        margin: 0px;
+    }
+        
+     
+
+    .DesEncriptar{
+        display: flex;
+        position: absolute;
+        width: 90%;
+        height: 25%;
+        left: 30px;
+        border-radius: 24px;
+        top: 74%;
+        background-color: #f9dfd4;
+        justify-content: center;
+    }
+
+    #text-container{
+        position: absolute;
+        bottom: 50%;
+        font-family: Inter;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .texto-encriptado{
+        width: 100%;
+    }
+   
+    
+    .input-padron {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .Botones{
+        position: absolute;
+        top: 60%;
+        
+       
+       
+    }
+
+    .btnEncriptar{
+   
+        margin: 10px 5px 10px 10px;
+        padding: 10px;
+       
+        text-align: center;
+        color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        cursor: pointer;
+        width: 149px;
+        height: 47px;
+        
+    
+    }
+    
+    #TxtEncriptado{
+    
+
+   
+    height: 8rem;
+    
+    line-height: 36px;
+    
+    letter-spacing: 0em;
+    
+    text-align: left;
+
+ 
+    }
+    
+    .Encriptar{
+        width: 100%;
+    }
+    
+    #contenido-img  img{
+        display: none;
+    }
+}
